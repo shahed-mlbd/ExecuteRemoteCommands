@@ -1,2 +1,3 @@
-# ExecuteRemoteCommands
-Using C#, WMI
+# Execute Remote Commands
+Using C#, WMI, ManagementScope. 
+
