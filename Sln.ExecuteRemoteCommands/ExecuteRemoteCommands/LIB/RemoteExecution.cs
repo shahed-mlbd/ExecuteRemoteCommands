@@ -13,8 +13,8 @@ namespace ExecuteRemoteCommands.LIB
             string line = null;
             string result = null;
             ConnectionOptions conn = new ConnectionOptions();
-            conn.Username = "Administrator";
-            conn.Password = "admin";
+            //conn.Username = "Administrator";
+            //conn.Password = "admin";
 
             ManagementScope wmiScope = new ManagementScope(string.Format("\\\\{0}\\root\\cimv2", IPOrComputerName), conn);
 
